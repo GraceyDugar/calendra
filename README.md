@@ -59,3 +59,57 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ---
 
 ## 📁 Project Structure
+
+calendra/
+├── app/
+│   ├── globals.css          # Global styles + Tailwind
+│   ├── layout.js            # Root layout
+│   └── page.js              # Entry point
+├── components/
+│   ├── WallCalendar.jsx     # Main wrapper component
+│   ├── HeroImage.jsx        # Dynamic month hero image
+│   ├── CalendarGrid.jsx     # Date grid with range selection
+│   ├── DayCell.jsx          # Individual day cell
+│   ├── LogEntryPanel.jsx    # Log entry form (category, mood, notes)
+│   ├── TimelineView.jsx     # Slide-in life log drawer
+│   └── EntryCard.jsx        # Individual log entry card
+├── hooks/
+│   └── useCalendar.js       # All calendar state and logic
+└── utils/
+└── dateHelpers.js       # Pure date utility functions
+
+---
+
+## 🎯 How to Use
+
+1. **Browse months** using the ‹ › arrows on the hero image
+2. **Click any day** to set your start date
+3. **Click another day** to set your end date — the range highlights in pink
+4. **Choose a category** — Travel, Work, Health, Study or Personal
+5. **Pick your mood** for that period
+6. **Write a note** about what happened
+7. **Click Save Entry** to log it
+8. **Click "My Life Log"** button to view all your entries in the timeline
+
+---
+
+## 💡 Why Calendra?
+
+Your phone's notes app can't do this. Calendra ties notes to **visual time ranges** — so you can see *when* things happened, *how long* they lasted, and *how you felt* during that period. It's a personal life logging tool for people who think in timelines.
+
+---
+
+## 🙋‍♀️ Author
+
+Built by **[Your Name]** as a frontend engineering personal project.
+
+- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+
+---
+
+## 📄 License
+
+MIT — free to use and modify.
+
+
+
