@@ -57,29 +57,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
-
-## 📁 Project Structure
-
-calendra/
-├── app/
-│   ├── globals.css          # Global styles + Tailwind
-│   ├── layout.js            # Root layout
-│   └── page.js              # Entry point
-├── components/
-│   ├── WallCalendar.jsx     # Main wrapper component
-│   ├── HeroImage.jsx        # Dynamic month hero image
-│   ├── CalendarGrid.jsx     # Date grid with range selection
-│   ├── DayCell.jsx          # Individual day cell
-│   ├── LogEntryPanel.jsx    # Log entry form (category, mood, notes)
-│   ├── TimelineView.jsx     # Slide-in life log drawer
-│   └── EntryCard.jsx        # Individual log entry card
-├── hooks/
-│   └── useCalendar.js       # All calendar state and logic
-└── utils/
-└── dateHelpers.js       # Pure date utility functions
-
----
-
 ## 🎯 How to Use
 
 1. **Browse months** using the ‹ › arrows on the hero image
@@ -101,9 +78,9 @@ Your phone's notes app can't do this. Calendra ties notes to **visual time range
 
 ## 🙋‍♀️ Author
 
-Built by **[Your Name]** as a frontend engineering personal project.
+Built by Gracey Dugar as a frontend engineering personal project.
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@GraceyDugar](https://github.com/GraceyDugar)
 
 ---
 
